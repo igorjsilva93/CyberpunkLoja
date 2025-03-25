@@ -1,0 +1,238 @@
+body {
+    background: linear-gradient(45deg, rgb(255, 251, 0), rgb(251, 255, 11));
+    font-family: arial,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url('img/bg/darkcyber.jpg');
+    /*background-color: #978d01;
+    */
+  }
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-shadow: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-style: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(98, 0, 255);
+}
+p.footer, #p.footer{
+  color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-shadow: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-style: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    text-shadow: none;
+    color: black;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-image: url('img/bg/teste6.png');
+    background-repeat: no-repeat;
+    text-shadow: 5px 5px 50px #711c91, 0 0 1em #ea00d9;
+    animation: blinker 1s linear infinite;
+    background-position: 500px;
+  }
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+.game
+ {
+    text-align: center;
+ }
+
+ *{
+  margin: 0; padding: 0;
+}
+
+.logo{
+    width: "200px";
+    height: "100px";
+    style: "margin-left: 500px";
+ }
+ 
+ #menu ul {
+     list-style: none;
+     border: 1px solid rgb(255, 251, 0);
+     color: white;
+ }
+ 
+ #menu li {
+     position: relative;
+     border-right: 1px solid rgb(255, 251, 0);
+     color: white;
+ }
+ 
+ #menu li a {color: #978d01; 
+  text-decoration: none; 
+  padding: 5px 10px; 
+  display: block;
+}
+ 
+ 
+ #menu li a:hover{
+     background:#ea00d9; 
+     color:#fff; 
+     -moz-box-shadow:0 3px 10px 0 #CCC; 
+     -webkit-box-shadow:0 3px 10px 0 #ccc; 
+     text-shadow:0px 0px 5px #fff; 
+ }
+ 
+
+ #menu li  ul{
+     position:absolute;
+     top:25px; 
+     left:0;
+     background-color:#58530d; 
+     display:none;
+ }  
+ 
+ #menu li:hover ul, #menu li.over ul{
+  display:block;
+}
+ 
+ #menu li ul li{
+     border:1px solid #c0c0c0; 
+     width:150px;
+     }
+ 
+ .logo, #logo {
+     margin: 10px;
+     justify-content: center;
+     margin-left: 500px;
+     margin-right: 500px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ 
+ header, #menu, #menu ul{
+    display: flex;
+ }
+ 
+ #menu{
+    flex: 1;
+    margin-top: 150px;
+    margin-right: 350px;
+    margin-left: -950px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ footer {
+    text-align: center;
+    padding: 3px;
+    background-image: url('img/bg/CyberpunkBanner.jpg');
+    /*background-color: #978d01;*/
+    /*color: white;*/
+    padding: 30px;
+  }
+.footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    border-style: solid;
+    border-color: #136377;
+    
+  }
+  .galeriaimg,#galeriaimg{
+    transition: transform .2s;
+  }
+  .galeriaimg:hover, #galeriaimg:hover{
+    transform: scale(1.5);
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  table {
+    margin-left: 220px;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    color: #136377;
+
+  }
+  th, td, tr{
+    text-align: center;
+    justify-content: center;
+    border-style: double;
+    color: #d1c5c0 ;
+  }
+
+  .homeimg, #homeimg {
+    justify-content: center;
+    margin-left: 520px;
+    margin-top: 15px;
+    margin-right: 500px;
+    border-style: solid;
+    
+  }
+  .homevideo{
+    margin-left: 350px;
+  }
+
+.shop, #shop{
+  text-decoration: none;
+  color: inherit;
+    /*background:#00caca; 
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; */
+}
+
+img.game{
+  border-image: linear-gradient(#ea00d9, blue) 27;
+}
+
+a {
+  text-decoration:none
+}
